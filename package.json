@@ -2,10 +2,11 @@
   "name": "express-api",
   "version": "1.0.0",
   "description": "Express api to be deployed to Vercel",
-  "main": "index.js",
+  "main": "api/index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api/index.js"
   },
   "author": "Easy",
   "license": "ISC",

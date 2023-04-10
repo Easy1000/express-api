@@ -6,4 +6,6 @@ app.get("/", (req, res) => {
   res.send("Express on Vercel");
 });
 
-export { app };
+app.listen(3000, () => console.log("Running on port 3000"));
+
+export default app
